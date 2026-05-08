@@ -5,7 +5,7 @@ expenses = []
 def add_expense():
     name = input("Enter expense name: ")
     amount = float(input("Enter amount: "))
-    category = input("Enter category (Food, Travel, etc.): ")
+    category = input("Enter category (Food, Travel, Movies, etc.): ")
     
     expense = {
         "name": name,
